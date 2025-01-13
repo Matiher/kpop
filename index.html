@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<title>kpop</title>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+        /* Configuramos la transición suave para el zoom */
+        img {
+            transition:transform 0.3s ease;
+        }
+    </style>
+</head>
+<body bgcolor="#f2b8d8">
+<img src="img/cbta88.png" width=100 height=100>
+<a href="origen.html">
+<img src="img/ori.png" width=160 height=70> </a>
+<a href="bandas.html">
+<img src="img/ban.png" width=160 height=70> </a>
+<a href="exitos.html">
+<img src="img/exi.png" width=160 height=70> </a> 
+<a href="acerca.html">
+<img src="img/acer.png" width=160 height=70> </a>
+
+
+
+
+<br> <center> <img id="miImagen" src="img\blog-kpop-hero-081823.jpg" width=600 height=300> <img id="ola" src="img\images.jfif" width=600m height=300> </center> <br>
+
+<center><table border="1" width="90%" bgcolor="#fd8392">
+<tr> 
+<td colspan"2"> <center> <h1> <font face="verdana" color="#820000"> ¿Qué es el K-POP? </center> </h1> </font> </td> 
+</tr> <tr>
+
+<td> <p style="text-align: justify;">
+El K-pop es un género musical originado en Corea del Sur que se caracteriza por su combinación de música pegadiza, coreografías sincronizadas y una estética visual impactante. Surgió en los años 90 con influencias del pop, hip-hop y R&B, logrando evolucionar hasta convertirse en un fenómeno global.
+
+<p>Los artistas, conocidos como idols, pasan por rigurosos entrenamientos en canto, baile y actuación antes de debutar. Cada grupo o solista presenta conceptos temáticos únicos en sus canciones y videos musicales, lo que los hace destacar tanto por su música como por su imagen.
+
+<p> El K-pop ha alcanzado popularidad internacional gracias a plataformas digitales como YouTube, que han permitido a grupos como BTS, BLACKPINK y EXO romper barreras culturales. Además, sus fandoms, altamente organizados y apasionados, juegan un papel clave en la promoción de sus ídolos y en el crecimiento del género.   </td>
+
+<td><div style="text-align: center;">
+
+
+<table style="background-color:#33475b">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gdZLi9oWNZg?si=oa4-LAXJdAMHTJuK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </td>
+</table>
+<script>
+        // Obtener la referencia de la imagen
+        const imagen = document.getElementById('miImagen');
+
+        // Efecto al pasar el mouse (mouseover)
+        imagen.addEventListener('mouseover', () => {
+            imagen.style.opacity = '0.5';  // Disminuir la opacidad
+        });
+
+        // Efecto cuando el mouse deja la imagen (mouseout)
+        imagen.addEventListener('mouseout', () => {
+            imagen.style.opacity = '1';  // Restaurar la opacidad
+        });
+    </script>
+<script>
+        const imagen = document.getElementById('ola');
+
+        // Al pasar el mouse sobre la imagen (zoom)
+        imagen.addEventListener('mouseover', () => {
+            imagen.style.transform = 'scale(1.2)'; // Aumentamos el tamaño de la imagen al 120%
+        });
+
+        // Al quitar el mouse (vuelve al tamaño original)
+        imagen.addEventListener('mouseout', () => {
+            imagen.style.transform = 'scale(1)'; // Restablecemos el tamaño a 100%
+        });
+    </script>
+</body>
+
+</html>
